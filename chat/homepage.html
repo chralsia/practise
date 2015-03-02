@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Chat</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="chatview">
+        <div>
+            <form >
+                <div class="form-group">
+                    <p>
+                        <input type="text" class="form-control" id="login" placeholder="Введите Ваш логин">
+                    </p>
+                    <button id="buttons" type="button" class="btn btn-default">
+                        Войти <span class="glyphicon glyphicon-ok"></span>
+                    </button>
+                    <button id="buttons" type="button" class="btn btn-default">
+                        Выйти <span class="glyphicon glyphicon-remove"></span>
+                    </button>
+                </div>
+                <div class="form-group">
+                    <div id="newmessage">
+                        <p><h3 style="color: #0C59CF; text-align: center;">Новое сообщение</h3></p>
+                        <p><input type="email" id="email" placeholder="Кому" /></p>
+                        <p><input type="text" id="message" placeholder="Введите Ваше сообщение" /></p>
+                        <button id="buttons" type="button" class="btn btn-default">
+                            Отправить
+                        </button>
+                    </div>
+                </div>
+                
+            </form>
+
+                <div>
+                    <h3 style="color: #0C59CF;">Сообщения</h3>
+                </div>
+                <label class="checkbox-inline" id="inlineCheckbox">
+                    <input type="checkbox"> Полученные сообщения
+                </label>
+                <label class="checkbox-inline" id="inlineCheckbox">
+                    <input type="checkbox" style="column-rule-color: #C9F1FD"> Отправленные сообщения
+                </label>
+                <p>
+                    <table class="table table-default" id="tablemessage">
+                        <thead>
+                            <tr>
+                                <th style="column-rule-width:thick">
+                                    <select>
+                                        <option id="choosingdeleting">Выделить все</option>
+                                        <option id="choosingdeleting">Удалить</option>
+                                    </select>
+
+                                </th>
+                                <th class="form-group">Сообщение</th>
+                                <th>Отправитель</th>
+                            </tr>
+                        </thead>
+
+
+                        <tbody>
+
+                            <tr>
+
+                                <td>
+                                    <input type="checkbox" />
+                                </td>
+                                <td>текст сообщения1</td>
+                                <td> отправитель1</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" />
+                                </td>
+                                <td>текст сообщения2</td>
+                                <td> отправитель2</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" />
+                                </td>
+                                <td>текст сообщения3</td>
+                                <td> отправитель3</td>
+                            </tr>
+                            
+                        </tbody>
+                    </table> 
+                    </p>                
+            
+        </div>
+         
+    </div>
+</body>
+</html>

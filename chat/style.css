@@ -1,0 +1,51 @@
+.actions{
+	margin-top: 10px;
+}
+#chatview{
+    position:absolute;
+	margin-left: 150px;
+	margin-right: 22px;
+	margin-top: 22px;
+	width: 1040px;
+}
+#login{
+    position:relative;
+	width: 228px;
+	max-height: 34px;
+    color: #0C59CF; 
+}
+#buttons{
+    background-color: #C9F1FD; 
+    color: #0C59CF; 
+    border-color: #0C59CF; 
+    position:relative;
+    height: 34px;
+    width:110px;
+}
+#choosingdeleting{
+    color: #0C59CF; 
+    border-color: #0C59CF; 
+}
+#tablemessage{
+    color:#0C59CF;
+    overflow:scroll;
+}
+#inlineCheckbox{
+    color:#0C59CF;
+}
+#newmessage{
+    position:relative;
+    width: 75%;
+    margin: 0 auto;
+}
+#email{
+    position:relative;
+    width:200px;
+    height:23px;
+}
+#message{
+    position:relative;
+    width:661px;
+    height: 79px;
+}
+
